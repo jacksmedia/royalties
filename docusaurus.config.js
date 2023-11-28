@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Protectors of the Realm',
+  title: 'Rug\'s Royalties',
   staticDirectories: ['public', 'static'],
-  tagline: 'Dragons & Diplomacy in the Realm of Karitha',
-  url: 'https://protectors.netlify.app',
+  tagline: 'NFT Burning for the Good of All',
+  url: 'https://royalties.divergent.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jacksmedia', // Usually your GitHub org/user name.
-  projectName: 'protectors', // Usually your repo name.
+  projectName: 'royalties', // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/jacksmedia/protectors',
+          editUrl: 'https://github.com/jacksmedia/royalties',
         },
         blog: {
           showReadingTime: true,
@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Protectors',
+        title: 'Rug\'s Royalties',
         logo: {
-          alt: 'Protectors of the Realm',
+          alt: 'Rug\'s Royalties from DC',
           src: 'img/dragonfly.png',
         },
         items: [
@@ -58,7 +58,7 @@ const config = {
           },
           {to: '/blog', label: 'FAQ', position: 'left'},
           {
-            href: 'https://github.com/jacksmedia/protectors',
+            href: 'https://github.com/jacksmedia/royalties',
             label: 'Code on GH',
             position: 'right',
           },
@@ -77,37 +77,25 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Connect',
             items: [
               {
-                label: 'Protectors Discord - Play the Game!',
-                href: 'https://discord.gg/6uP4pUgXpC',
-              },
-              {
-                label: 'Lannuvar DAO in Realm of Karitha',
-                href: 'https://lannuvar.super.site',
+                label: 'Project X Discord - Our Parent DAO',
+                href: 'https://discord.gg/projectx-dao',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Social Media',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'J4cks\'s Twitter',
-                href: 'https://twitter.com/xJ4cks',
-              },
-              {
-                label: 'xJ4cks Insta',
-                href: 'https://www.instagram.com/xj4cks',
+                label: 'Divergent\'s Twitter',
+                href: 'https://twitter.com/DivergentClub_',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. Support Protectors: erd1mwvw34826j6nm4wc04qxrnxgphquwkahfe0ughgakz6s5qrs2u5swdsdxs`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. Support Divergent Club: erdxxxxxx`,
       },
       prism: {
         theme: lightCodeTheme,
