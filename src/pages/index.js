@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -33,7 +33,9 @@ export default function Home() {
       description="Burn Your NFTS for the Good of All">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <span>
+          Additional Content Space
+        </span>
       </main>
     </Layout>
   );

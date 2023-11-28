@@ -8,8 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  min-height: 50vh;
-  height: 50vh;
+  min-height: 80vh;
+  height: 80vh;
   
   background: url(./OIG.png);
   background-size: cover;
