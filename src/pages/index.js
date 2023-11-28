@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Begin Your Journey
+            Log In to Burn
           </Link>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Protectors of the Realm: Dragons & Diplomacy">
+      description="Burn Your NFTS for the Good of All">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
