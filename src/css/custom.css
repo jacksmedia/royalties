@@ -1,0 +1,104 @@
+
+/* Fonts */
+/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,800;1,500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Taviraj:wght@200&display=swap');
+/*@import url('./alagard.ttf');*/
+
+/* You can override the default Infima variables here. */
+.unstyled-text {
+  color: black !important;
+}
+.smolTable {
+  display: inline;
+}
+.flexbox1 {
+  /*flex-flow: row no wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  gap: 10px;*/
+}
+.flexbox1 > * {
+  font-size: 1.3em;
+}
+
+.lemonchiffon{
+  background-color: LemonChiffon !important;
+  color: black;
+}
+
+.indianred{
+  background-color: indianred !important;
+  color: black;
+}
+
+.mediumaquamarine{
+  background-color: MediumAquamarine;
+  color: black;
+}
+
+.cornflowerblue{
+  background-color: cornflowerblue;
+  color: black;
+}
+
+:root {
+  --ifm-color-primary: #1728AB;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+*, .footer__title {
+  font-family:  "Taviraj";
+}
+
+h1, h2, h3, button {
+  font-family:  "Abril Fatface";
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0081DF;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+.widest-column {
+  min-width: 18vw;
+}
+/* to make the default footer colors into a slight gradient */ 
+.footer {
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), rgba(238,108,42,0.4));
+}
+.hero__subtitle {
+  color: #FFFFFF;
+
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.hero__title {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
+}
+
