@@ -54,11 +54,11 @@
 }
 
 *, .footer__title {
-  font-family:  "Taviraj";
+  font-family:  'Pixelfy Sans';
 }
 
 h1, h2, h3, button {
-  font-family:  "Abril Fatface";
+  font-family:  'Pixelfy Sans';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -94,7 +94,7 @@ h1, h2, h3, button {
   background: linear-gradient(-14deg, rgba(10,0,0,0.8), rgba(238,108,42,0.4));
 }
 .hero__subtitle {
-  color: #FFFFFF;
+  color: #000000;
 
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }
