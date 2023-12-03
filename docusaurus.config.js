@@ -17,6 +17,15 @@ const config = {
   organizationName: 'jacksmedia', // Usually your GitHub org/user name.
   projectName: 'royalties', // Usually your repo name.
 
+  headTags: [
+    {
+      tagName: 'head',
+      attributes: {
+        title: 'Rug\'s Royalties | DC',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
