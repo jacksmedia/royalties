@@ -1,6 +1,6 @@
 ---
 slug: Rug's Royalities FAQ
-title: Frequently Asked Questions
+title: Disclaimer
 date: 08/31/2023
 authors: harry
 tags: [Divergent, NFTs, EGLD, Elrond, pixel ]

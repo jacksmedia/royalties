@@ -29,7 +29,7 @@ export default function Home() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/FAQ">
             Log In to Burn
           </Link>
         </div>

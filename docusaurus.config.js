@@ -61,11 +61,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'FAQ',
             position: 'left',
             label: 'Guides',
           },
-          {to: '/blog', label: 'FAQ', position: 'left'},
+          {to: '/blog', label: 'Disclaimer', position: 'left'},
           {
             href: 'https://github.com/jacksmedia/royalties',
             label: 'Code on GH',
@@ -80,8 +80,8 @@ const config = {
             title: 'Guides',
             items: [
               {
-                label: 'Intro',
-                to: '/docs/intro',
+                label: 'Disclaimer',
+                to: '/blog',
               },
             ],
           },
